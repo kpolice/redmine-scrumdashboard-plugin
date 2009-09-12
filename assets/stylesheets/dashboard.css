@@ -2,34 +2,41 @@
 div.header
 {
     float: left;
-    border-bottom: 1px solid #999;
+    border-bottom: 2px solid #091424;
     font-weight: bold;
     text-align: center;
+    padding: 0.6em 0;
+    color: #fff;
+    background-color: #194367;
 }
+
+div.header a, div.header a:link{
+    color: #fff;
+}
+
 div.frame
 {
     width: 100%;
 }
+
 div.column
 {
     float: left;
 }
+
 div.db_issue
 {
-    margin-top: 4px;
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 44%;
+    width: 90%;
+    margin: 0 auto;
     height: 45px;
-    border: 1px solid #999;
     float: left;
     overflow: hidden;
 }
 
 #tooltip {
     padding: 3px;
-    background-color: #ffffff;
-    border: 1px solid #bbb;
+    background-color: #e5e5e5;
+    border: 2px solid #ccc;
     font-size: small;
     min-width: 175px;
     max-width: 350px;
@@ -65,5 +72,6 @@ div.draggable
 {
     cursor: move;
 }
+
 div.hover {
 }
